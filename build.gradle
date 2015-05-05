@@ -6,6 +6,9 @@ apply plugin: 'scrooge-gradle-plugin'
 repositories {
     mavenLocal()
     mavenCentral()
+    maven {
+        url 'http://maven.twttr.com'
+    }
 }
 
 sourceCompatibility = 1.8
